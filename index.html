@@ -5,7 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Landing Page</title>
+    <script src="https://unpkg.com/feather-icons"></script>
     <link rel="stylesheet" href="./assets/style.css" />
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <nav>
+        <ul>
+          <li class="active">Home</li>
+          <li>Old models</li>
+          <li>New</li>
+          <li>About</li>
+        </ul>
+        <ul>
+          <li><i data-feather="shopping-cart"></i></li>
+          <li><i data-feather="search"></i></li>
+          <li><i data-feather="user"></i></li>
+        </ul>
+      </nav>
+    </div>
+
+    <script>
+      feather.replace();
+    </script>
+  </body>
 </html>
